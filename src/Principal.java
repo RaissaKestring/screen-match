@@ -1,36 +1,15 @@
-import br.com.alura.Filme;
+import br.com.alura.screenmatch.Filme;
+import br.com.alura.screenmatch.Serie;
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 
 public class Principal {
-//    public static void main(String[] args) {
-//        Musica minhaMusica = new Musica();
-//
-//        minhaMusica.titulo = "Nome da música";
-//        minhaMusica.artista = "Nome do Artista";
-//        minhaMusica.anoDeLancamento = 2023;
-//
-//        minhaMusica.ficha();
-//
-//        minhaMusica.avalia(4.5);
-//        minhaMusica.avalia(3.8);
-//        minhaMusica.avalia(5);
-//
-//        double mediaAvaliacoes = minhaMusica.pegaMedia();
-//        System.out.println("Média das avaliações: " + mediaAvaliacoes);
-//    }
-
-//    public static void main(String[] args) {
-//        Aluno meuAluno = new Aluno();
-//        meuAluno.nome = "Akemi";
-//        meuAluno.idade = 18;
-//
-//        meuAluno.info();
-//    }
 
         public static void main(String[] args) {
             Filme meuFilme = new Filme();
             meuFilme.setNome("O poderoso chefão");
             meuFilme.setAnoDeLancamento(1970);
             meuFilme.setDuracaoEmMinutos(180);
+            System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
             meuFilme.exibeFichaTecnica();
             meuFilme.avalia(8);
@@ -40,8 +19,28 @@ public class Principal {
 //            não uso mais dessa forma:
 //            meuFilme.totalDeAvaliacoes = 20;
 //            meuFilme.somaDasAvaliacoes = 1;
-            System.out.println(meuFilme.pegaMedia());
+//            System.out.println(meuFilme.pegaMedia());
 
+            Serie dark = new Serie();
+            dark.setNome("Dark");
+            dark.setAnoDeLancamento(2020);
+            dark.exibeFichaTecnica();
+            dark.setTemporadas(3);
+            dark.setEpisodiosPorTemporada(8);
+            dark.setMinutosPorEpisodio(50);
+            System.out.println("Duração para maratonar Dark: " + dark.getDuracaoEmMinutos() + " minutos");
+
+            Filme outroFilme = new Filme();
+            outroFilme.setNome("Duna");
+            outroFilme.setAnoDeLancamento(2019);
+            outroFilme.setDuracaoEmMinutos(200);
+
+            CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+
+            calculadora.inclui(meuFilme);
+            calculadora.inclui(outroFilme);
+            calculadora.inclui(dark);
+            System.out.println(calculadora.getTempoTotal());
         }
 
 }

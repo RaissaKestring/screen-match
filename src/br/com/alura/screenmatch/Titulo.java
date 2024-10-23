@@ -1,6 +1,6 @@
-package br.com.alura;
+package br.com.alura.screenmatch;
 
-public class Filme {
+public class Titulo {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
