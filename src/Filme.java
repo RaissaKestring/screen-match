@@ -2,10 +2,16 @@ public class Filme {
     String nome;
     int anoDeLancamento;
     boolean incluidoNoPlano;
-    double somaDasAvaliacoes;
-    int totalDeAvaliacoes;
+    // modificador de acesso / visibilidade
+    private double somaDasAvaliacoes; // item escondido, nenhuma outra classe tem acess
+    private int totalDeAvaliacoes;
     int duracaoEmMinutos;
 
+    //metodo acessor
+    int getTotalDeAvaliacoes()
+    {
+        return totalDeAvaliacoes;
+    }
     void exibeFichaTecnica()
     {
         System.out.println("Nome do filme: " + nome);
