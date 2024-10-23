@@ -13,7 +13,7 @@ public class Musica {
 
         void ficha()
         {
-            System.out.println("Titulo da música: " + titulo);
+            System.out.println("br.com.alura.Titulo da música: " + titulo);
             System.out.println("Artista: " + artista);
             System.out.println("Ano de lançamento: " + anoDeLancamento);
         }
@@ -29,3 +29,30 @@ public class Musica {
             return somaDasAvaliacoes / numAvaliacoes;
         }
     }
+
+// public class Principal {
+//    public static void main(String[] args) {
+//        Musica minhaMusica = new Musica();
+//
+//        minhaMusica.titulo = "Nome da música";
+//        minhaMusica.artista = "Nome do Artista";
+//        minhaMusica.anoDeLancamento = 2023;
+//
+//        minhaMusica.ficha();
+//
+//        minhaMusica.avalia(4.5);
+//        minhaMusica.avalia(3.8);
+//        minhaMusica.avalia(5);
+//
+//        double mediaAvaliacoes = minhaMusica.pegaMedia();
+//        System.out.println("Média das avaliações: " + mediaAvaliacoes);
+//    }
+
+//    public static void main(String[] args) {
+//        Aluno meuAluno = new Aluno();
+//        meuAluno.nome = "Akemi";
+//        meuAluno.idade = 18;
+//
+//        meuAluno.info();
+//    }
+
