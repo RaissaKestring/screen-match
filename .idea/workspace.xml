@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43cf6ea2-a77d-4c61-a8c1-4b61d2a344e4" name="Changes" comment="organizando código">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
+    <list default="true" id="43cf6ea2-a77d-4c61-a8c1-4b61d2a344e4" name="Changes" comment="Heranças e Interfaces">
+      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/modelos/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/modelos/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/modelos/Podcast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729718548407</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Heranças e Interfaces">
+      <option name="closed" value="true" />
+      <created>1729795970044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729795970045</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +153,7 @@
     <MESSAGE value="getters e setters" />
     <MESSAGE value="herança e polimorfismo" />
     <MESSAGE value="organizando código" />
-    <option name="LAST_COMMIT_MESSAGE" value="organizando código" />
+    <MESSAGE value="Heranças e Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heranças e Interfaces" />
   </component>
 </project>

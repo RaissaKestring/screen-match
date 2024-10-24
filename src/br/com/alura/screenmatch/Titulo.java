@@ -1,5 +1,9 @@
 package br.com.alura.screenmatch;
 
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
+
 public class Titulo {
     private String nome;
     private int anoDeLancamento;
@@ -65,3 +69,4 @@ public class Titulo {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }
+
