@@ -1,3 +1,5 @@
+package aulasInicias;
+
 public class Aluno {
     String nome;
     int idade;

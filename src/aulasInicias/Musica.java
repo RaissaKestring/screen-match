@@ -1,3 +1,5 @@
+package aulasInicias;
+
 import java.util.Scanner;
 
 public class Musica {
@@ -30,9 +32,9 @@ public class Musica {
         }
     }
 
-// public class Principal {
+// public class aulasInicias.Principal {
 //    public static void main(String[] args) {
-//        Musica minhaMusica = new Musica();
+//        aulasInicias.Musica minhaMusica = new aulasInicias.Musica();
 //
 //        minhaMusica.titulo = "Nome da música";
 //        minhaMusica.artista = "Nome do Artista";
@@ -49,7 +51,7 @@ public class Musica {
 //    }
 
 //    public static void main(String[] args) {
-//        Aluno meuAluno = new Aluno();
+//        aulasInicias.Aluno meuAluno = new aulasInicias.Aluno();
 //        meuAluno.nome = "Akemi";
 //        meuAluno.idade = 18;
 //

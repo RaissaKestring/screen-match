@@ -1,3 +1,5 @@
+package aulasInicias;
+
 import java.util.Scanner;
 
 public class Calculadora {

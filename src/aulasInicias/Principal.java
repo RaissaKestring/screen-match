@@ -1,3 +1,5 @@
+package aulasInicias;
+
 import br.com.alura.screenmatch.Filme;
 import br.com.alura.screenmatch.Serie;
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
