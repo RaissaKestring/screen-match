@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43cf6ea2-a77d-4c61-a8c1-4b61d2a344e4" name="Changes" comment="Heranças e Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/modelos/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/modelos/Musica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesafioFinal/modelos/Podcast.java" afterDir="false" />
+    <list default="true" id="43cf6ea2-a77d-4c61-a8c1-4b61d2a344e4" name="Changes" comment="reorganizando código">
+      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/MinhasPreferidas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/Podcast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesafioFinal/modelos/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesafioFinal/modelos/Musica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesafioFinal/modelos/Podcast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafioFinal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafioFinal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/raissa/screen-match/src/desafio&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/raissa/screen-match/src/desafio&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -57,23 +60,36 @@
       <recent name="br" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculadora" />
+      <option name="MAIN_CLASS_NAME" value="aulasInicias.Calculadora" />
       <module name="screen-match" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafioFinal.Main" />
+      <module name="screen-match" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafioFinal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pessoa" />
+      <option name="MAIN_CLASS_NAME" value="aulasInicias.Pessoa" />
       <module name="screen-match" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <option name="MAIN_CLASS_NAME" value="aulasInicias.Principal" />
       <module name="screen-match" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.Pessoa" />
@@ -144,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729795970045</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Reorganizando código">
+      <option name="closed" value="true" />
+      <created>1729797670862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729797670862</updated>
+    </task>
+    <task id="LOCAL-00008" summary="reorganizando código">
+      <option name="closed" value="true" />
+      <created>1729798158808</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729798158808</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +187,8 @@
     <MESSAGE value="herança e polimorfismo" />
     <MESSAGE value="organizando código" />
     <MESSAGE value="Heranças e Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heranças e Interfaces" />
+    <MESSAGE value="Reorganizando código" />
+    <MESSAGE value="reorganizando código" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorganizando código" />
   </component>
 </project>
