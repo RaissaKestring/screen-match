@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43cf6ea2-a77d-4c61-a8c1-4b61d2a344e4" name="Changes" comment="reorganizando código">
-      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/MinhasPreferidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/Musica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafioFinal/modelos/Podcast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesafioFinal/modelos/Audio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesafioFinal/modelos/Musica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesafioFinal/modelos/Podcast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafioFinal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafioFinal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aulasInicias/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aulasInicias/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +36,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Pessoa.executor&quot;: &quot;Run&quot;,
     &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -60,7 +55,7 @@
       <recent name="br" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aulasInicias.Calculadora" />
       <module name="screen-match" />
@@ -97,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.Pessoa" />
       </list>
