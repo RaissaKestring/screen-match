@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43cf6ea2-a77d-4c61-a8c1-4b61d2a344e4" name="Changes" comment="reorganizando código">
+    <list default="true" id="43cf6ea2-a77d-4c61-a8c1-4b61d2a344e4" name="Changes" comment="listing arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aulasInicias/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aulasInicias/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/Filme.java" afterDir="false" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729798158808</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="listing arrays">
+      <option name="closed" value="true" />
+      <created>1730236274750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730236274750</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +192,7 @@
     <MESSAGE value="Heranças e Interfaces" />
     <MESSAGE value="Reorganizando código" />
     <MESSAGE value="reorganizando código" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorganizando código" />
+    <MESSAGE value="listing arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="listing arrays" />
   </component>
 </project>
